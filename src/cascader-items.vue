@@ -85,6 +85,7 @@
         /*@include box-shadow2;*/
         @extend .box-shadow;
         border-radius: $border-radius;
+        overflow: auto;
     }
     .right {
         height: 100%;
