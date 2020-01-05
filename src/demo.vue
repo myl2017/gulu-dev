@@ -1,6 +1,6 @@
 <template>
     <div class="demo" id="app">
-        <g-cascader :source="source" popover-height="200px"></g-cascader>
+        <g-cascader :source="source" popover-height="200px" :selected="selected" @update:selected="selected = $event"></g-cascader>
     </div>
 </template>
 <script>
@@ -13,6 +13,7 @@
         },
         data() {
             return {
+                selected: [],
                 source: [{
                     name: '浙江',
                     children: [
