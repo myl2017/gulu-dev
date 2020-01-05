@@ -83,7 +83,8 @@
         height: 100%;
         /*padding: .3em 0;*/
         /*@include box-shadow2;*/
-    @extend .box-shadow;
+        @extend .box-shadow;
+        border-radius: $border-radius;
     }
     .right {
         height: 100%;
